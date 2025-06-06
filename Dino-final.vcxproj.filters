@@ -13,10 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c7c1e023-99f4-41f3-b453-e94ec89c068d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dino-final.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\logo1.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\logo2.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\move2_1.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\move2_2.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\move3_1.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\move3_2.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\move4_1.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\move4_2.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\Tree.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\1.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\Background.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\Cloud.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\Dino_ico.ico">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\fly_1.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="src\fly_2.png">
+      <Filter>src</Filter>
+    </Image>
   </ItemGroup>
 </Project>
