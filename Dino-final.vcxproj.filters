@@ -69,4 +69,9 @@
       <Filter>src</Filter>
     </Image>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
