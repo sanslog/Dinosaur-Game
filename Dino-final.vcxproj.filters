@@ -21,6 +21,12 @@
     <ClCompile Include="Dino-final.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\logo1.png">
@@ -71,6 +77,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInit.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

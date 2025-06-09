@@ -1,5 +1,4 @@
 #pragma once
-
 #include<graphics.h>
 
 //ÏñËØÍ¼Æ¬ËØ²Ä
