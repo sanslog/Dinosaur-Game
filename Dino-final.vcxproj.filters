@@ -30,6 +30,9 @@
     <ClCompile Include="GameRender.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GameSkill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\logo1.png">
@@ -86,6 +89,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="GameRender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSkill.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

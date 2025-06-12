@@ -131,6 +131,7 @@
     <ClCompile Include="GameData.cpp" />
     <ClCompile Include="GameInit.cpp" />
     <ClCompile Include="GameRender.cpp" />
+    <ClCompile Include="GameSkill.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\1.png" />
@@ -153,6 +154,7 @@
     <ClInclude Include="GameData.h" />
     <ClInclude Include="GameInit.h" />
     <ClInclude Include="GameRender.h" />
+    <ClInclude Include="GameSkill.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
