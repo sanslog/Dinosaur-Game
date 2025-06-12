@@ -4,7 +4,13 @@
 #include <tchar.h>
 #include <graphics.h>
 #include "GameInput.h"
-
+// GameRender.cpp
+// 游戏渲染相关实现文件
+// 包含游戏主界面绘制与结束界面显示逻辑
+// 依赖头文件：GameRender.h, GameData.h, GameInit.h, GameInput.h, tchar.h, graphics.h
+// 主要函数：
+//   void print_game() - 渲染游戏主界面，包括背景、云朵、恐龙动画、地面、障碍物和分数显示
+//   void End_game(int score) - 显示游戏结束界面，包括分数、提示信息和作者信息，并等待用户输入
 void print_game()
 {
     putimage(0, 0, &im_bg);

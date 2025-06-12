@@ -69,29 +69,38 @@ void Init()
 
 void pre_print()
 {
+    // 绘制背景图片
     putimage(0, 0, &im_bg);
+    // 设置标题字体和颜色
     settextstyle(15, 0, _T("Consolas"));
     settextcolor(RGB(253, 138, 101));
 
+    // 显示游戏标题
     TCHAR Intro[30];
     wcscpy_s(Intro, _T("New Dinosaur"));
     int Intro_wid = width / 8 - textwidth(Intro) / 2;
     int Intro_hei = height / 8 - textheight(Intro);
     outtextxy(Intro_wid + 10, Intro_hei, Intro);
+    // 显示LOGO图片
     PutPng(Intro_wid - dino_width * 2 + 10, Intro_hei - 1, &im_logo1, &im_logo2);
     Sleep(1500);
 
+    // 清屏并重新绘制背景和云朵
     cleardevice();
     putimage(0, 0, &im_bg);
     putimage(0, 0, &im_bg);
     putimage(cloud_x, 10, &im_cloud);
     putimage(cloud_x2, 10 + 5, &im_cloud);
+    // 显示LOGO图片
     PutPng(dino_Lfetx, dino_Topy, &im_logo1, &im_logo2);
+    // 循环绘制地面
     for (int i = 0; i < width / 4 * 46; i++)
         putimage(i * 46, bottom, &im_ground);
 
+    // 设置菜单字体和颜色
     settextcolor(RGB(0, 0, 0));
     settextstyle(8, 0, _T("宋体"));
+    // 显示菜单选项
     wcscpy_s(Intro, _T("开始 -   空格"));
     Intro_wid = width / 8 - textwidth(Intro) / 2;
     Intro_hei = height / 8 - textheight(Intro) * 2;
