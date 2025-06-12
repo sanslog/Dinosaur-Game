@@ -18,8 +18,8 @@
 朱永淇：提供项目模板；解决git、GitHub等网络相关及配置相关问题；参与部分代码书写；参与代码实现逻辑商定。
 组员：
 肖锦松：暂无
-虎耀辉：暂无
-连广宇：暂无
+虎耀辉：负责GameRender.cpp和GameRender.h
+连广宇：负责GameSkill.cpp和GameSkill.h
 白万里：暂无
 
 
