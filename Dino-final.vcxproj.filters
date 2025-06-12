@@ -27,6 +27,9 @@
     <ClCompile Include="GameInit.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GameRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\logo1.png">
@@ -80,6 +83,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="GameInit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRender.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

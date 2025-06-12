@@ -130,6 +130,7 @@
     <ClCompile Include="Dino-final.cpp" />
     <ClCompile Include="GameData.cpp" />
     <ClCompile Include="GameInit.cpp" />
+    <ClCompile Include="GameRender.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="src\1.png" />
@@ -151,6 +152,7 @@
   <ItemGroup>
     <ClInclude Include="GameData.h" />
     <ClInclude Include="GameInit.h" />
+    <ClInclude Include="GameRender.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
